@@ -32,7 +32,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.star {
+  color: gold;
+  font-size: 1.5rem;
+  margin-right: 2px;
+
+}
+
+.progressbar {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.summery-box {
+  width: 50%;
+}
+
+@media screen and (max-width:770px) {
+  .summery-box {
+    width: 100%;
+    margin: 0 auto;
   }
 }
